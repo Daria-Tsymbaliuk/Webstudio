@@ -1,0 +1,82 @@
+
+.section1 {
+    background-color: rgb(47, 48, 58)
+}
+.section1 button {
+    background-color: rgb(33, 150, 243);
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+.text-info p {
+    color: rgb(117, 117, 117);
+}
+.team p {
+    color: rgb(117, 117, 117);
+}
+.address-and-tel-number3 a {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+}
+.logo1 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.logo2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.text-adress {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+footer {
+    background-color: rgb(47, 48, 58);
+}
+.text-adress2 {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.text-adress3 {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.text-adress-0 {
+    color: rgb(33, 150, 243);
+    text-decoration: none;
+}
+.tel-1 {
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+}
+.studio {
+    color:rgb(33, 150, 243);
+    text-decoration: none;
+}
+.portfolio {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.contacts {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.section2 {
+    background-color: rgb(245, 244, 250);
+}
+.button1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 150, 243);
+}
+.button2 {
+    background-color: rgb(245, 244, 250);
+}
+.button3 {
+    background-color: rgb(245, 244, 250);
+}
+.button4 {
+    background-color: rgb(245, 244, 250);
+}
+.button5 {
+    background-color: rgb(245, 244, 250);
+}
