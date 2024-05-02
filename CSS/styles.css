@@ -1,25 +1,21 @@
             /* Змінні CSS */
 
 :root {
-    --main-text-color: rgb(117, 117, 117);
-}
-:root {
-    --accent-color: rgb(33, 150, 243);
-}
-:root {
-    --accent-2-color: rgb(255, 255, 255);
+    --main-text-color: #757575;
+    --accent-color: #2196f3;
+    --saturation-color: #ffffff;
 }
 
             /* Змінні CSS */    
 .section1 {
-    background-color: rgb(47, 48, 58)
+    background-color: #2f303a
 }
 .section1 button {
     background-color: var(--accent-color);
-    color:var(--accent-2-color);
+    color:var( --saturation-color);
 }
 h1 {
-    color: var(--accent-2-color);
+    color: var( --saturation-color);
 }
 .text-info p {
     color: var(--main-text-color) ;
@@ -33,14 +29,14 @@ h1 {
 }
 .logo1 {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #212121;
 }
 .logo2 {
     text-decoration: none;
-    color: var(--accent-2-color);
+    color: var(- --saturation-color);
 }
 .text-adress {
-    color: var(--accent-2-color);
+    color: var( --saturation-color);
     text-decoration: none;
 }
 footer {
@@ -67,20 +63,20 @@ footer {
     text-decoration: none;
 }
 .portfolio {
-    color: rgb(0, 0, 0);
+    color: #212121;
     text-decoration: none;
 }
 .contacts {
-    color: rgb(0, 0, 0);
+    color: #212121;
     text-decoration: none;
 }
 .section2 {
-    background-color: rgb(245, 244, 250);
+    background-color: #f5f4fa;
 }
 .button1 {
     background-color: var(--accent-color);
-    color: var(--accent-2-color);
+    color: var( --saturation-color);
 }
 .button2 {
-    background-color: rgb(245, 244, 250);
+    background-color: #f5f4fa;
 }
