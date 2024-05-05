@@ -3,20 +3,36 @@
 :root {
     --main-text-color: #757575;
     --accent-color: #2196f3;
-    --saturation-color: #ffffff;
+    --white-color: #ffffff;
+    --black-titel-color: #212121; 
+    --focus-text-color:#2f303a;
+    --emphasis-color: #f5f4fa ;
+    --attention-color:#ffffffb3;
 }
 
             /* Змінні CSS */    
-.section1 {
-    background-color: #2f303a
+.section-order-the-service {
+   background-color: var(--focus-text-color);
 }
-.section1 button {
+.section-order-the-service  button {
     background-color: var(--accent-color);
     color:var( --saturation-color);
+
+          /* Заголовки */
+
 }
 h1 {
-    color: var( --saturation-color);
+    color: var( --white-color);
 }
+h2 {
+    color: var(--black-titel-color);
+}
+h3 {
+    color: var(--black-titel-color);
+}
+
+          /* Заголовки */
+
 .text-info p {
     color: var(--main-text-color) ;
 }
@@ -29,25 +45,25 @@ h1 {
 }
 .logo1 {
     text-decoration: none;
-    color: #212121;
+    color: var(--black-titel-color);
 }
 .logo2 {
     text-decoration: none;
-    color: var(- --saturation-color);
+    color: var(--white-color);
 }
 .text-adress {
-    color: var( --saturation-color);
+    color: var(--white-color);
     text-decoration: none;
 }
 footer {
-    background-color: #2f303a;
+    background-color: var(--focus-text-color);
 }
 .text-adress2 {
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--attention-color);
     text-decoration: none;
 }
 .text-adress3 {
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--attention-color);
     text-decoration: none;
 }
 .text-adress-0 {
@@ -63,20 +79,20 @@ footer {
     text-decoration: none;
 }
 .portfolio {
-    color: #212121;
+    color: var(--black-titel-color);
     text-decoration: none;
 }
 .contacts {
-    color: #212121;
+    color: var(--black-titel-color);
     text-decoration: none;
 }
-.section2 {
-    background-color: #f5f4fa;
+.section-team {
+    background-color: var(--emphasis-color);
 }
 .button1 {
     background-color: var(--accent-color);
-    color: var( --saturation-color);
+    color: var( --white-color);
 }
 .button2 {
-    background-color: #f5f4fa;
+    background-color: var(--emphasis-color);
 }
