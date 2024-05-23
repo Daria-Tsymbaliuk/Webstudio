@@ -12,15 +12,20 @@
 
             /* Змінні CSS */    
 .section-order-the-service {
-   background-color: var(--focus-text-color);
+   background-color: var( --grey-light-bcg-color);
+}
+.section-order-the-service  button:hover{
+    background-color: var(--accent-color);
+    color:var(--white-color);
 }
 .section-order-the-service  button {
-    background-color: var(--accent-color);
-    color:var( --saturation-color);
+    background-color: var(--button-bcg-color);
+    color:var(--black-titel-color);
+}
 
           /* Заголовки */
 
-}
+          
 h1 {
     color: var( --white-color);
 }
@@ -29,6 +34,9 @@ h2 {
 }
 h3 {
     color: var(--black-titel-color);
+}
+.section-text-info h2{
+    color: var(--white-color);
 }
 
           /* Заголовки */
@@ -55,26 +63,50 @@ h3 {
     color: var(--white-color);
     text-decoration: none;
 }
+.text-adress:hover{
+    color: var(--accent-color);
+    text-decoration: none;
+}
 footer {
-    background-color: var(--focus-text-color);
+    background-color: var( --grey-light-bcg-color);
 }
 .text-adress2 {
-    color: var(--attention-color);
+    color: var(--adress-footer-color);
+    text-decoration: none;
+}
+.text-adress2:hover{
+    color: var(--accent-color);
     text-decoration: none;
 }
 .text-adress3 {
-    color: var(--attention-color);
+    color: var(--adress-footer-color);
     text-decoration: none;
 }
-.text-adress-0 {
+.text-adress3:hover{
     color: var(--accent-color);
+    text-decoration: none;
+}
+.text-adress-0:hover{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.text-adress-0{
+    color: var(--main-text-color);
     text-decoration: none;
 }
 .tel-1 {
     color:  var(--main-text-color);
     text-decoration: none;
 }
+.tel-1:hover{
+    color:  var(--accent-color);
+    text-decoration: none;
+}
 .studio {
+    color:var(--black-titel-color);
+    text-decoration: none;
+}
+.studio:hover{
     color:var(--accent-color);
     text-decoration: none;
 }
@@ -82,17 +114,93 @@ footer {
     color: var(--black-titel-color);
     text-decoration: none;
 }
+.portfolio:hover{
+    color: var(--accent-color);
+    text-decoration: none;
+}
 .contacts {
     color: var(--black-titel-color);
     text-decoration: none;
 }
-.section-team {
-    background-color: var(--emphasis-color);
+.contacts:hover{
+    color: var(--accent-color);
+    text-decoration: none;
 }
-.button1 {
+.section-team {
+    background-color: var(--button-bcg-color);
+}
+.button1:hover{
     background-color: var(--accent-color);
     color: var( --white-color);
 }
+.button1 {
+    background-color: var(--button-bcg-color);
+    color: var(--black-titel-color);
+}
 .button2 {
-    background-color: var(--emphasis-color);
+    background-color: var(--button-bcg-color);
+    color: var(--black-titel-color);
+}
+.button2:hover{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+
+                /* Шрифти  */
+
+.logo1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}                
+.logo2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+.section-team h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.section-what-we-were-doing h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.section-text-info h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+.section-order-the-service button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+.section-team h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.address-and-tel-number2 a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.section-buttons-img h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+.ul-buttons{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500; 
 }
