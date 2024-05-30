@@ -11,14 +11,14 @@
 }
 
             /* Змінні CSS */    
-.section-order-the-service {
+.order-service {
    background-color: var( --grey-light-bcg-color);
 }
-.section-order-the-service  button:hover{
+.order-service-button:hover{
     background-color: var(--accent-color);
     color:var(--white-color);
 }
-.section-order-the-service  button {
+.order-service-button {
     background-color: var(--button-bcg-color);
     color:var(--black-titel-color);
 }
@@ -35,172 +35,174 @@ h2 {
 h3 {
     color: var(--black-titel-color);
 }
-.section-text-info h2{
+.info-name{
     color: var(--white-color);
 }
 
           /* Заголовки */
 
-.text-info p {
-    color: var(--main-text-color) ;
-}
-.team p {
-    color: var(--main-text-color);
-}
-.address-and-tel-number3 a {
-    text-decoration: none;
-    color: var(--main-text-color);
-}
-.logo1 {
+.header-logo{
     text-decoration: none; 
     color: var(--black-titel-color);
 }
-.logo2{
+.footer-logo{
     text-decoration: none;
     color: var(--white-color);
 }
-.text-adress {
+.footer-link {
     color: var(--white-color);
     text-decoration: none;
 }
-.text-adress:hover{
+.footer-link:hover{
     color: var(--accent-color);
     text-decoration: none;
 }
 footer {
     background-color: var( --grey-light-bcg-color);
 }
-.text-adress2 {
+.footer-link2{
     color: var(--adress-footer-color);
     text-decoration: none;
 }
-.text-adress2:hover{
+.footer-link2:hover{
     color: var(--accent-color);
     text-decoration: none;
 }
-.text-adress3 {
-    color: var(--adress-footer-color);
-    text-decoration: none;
-}
-.text-adress3:hover{
+.header-link2:hover{
     color: var(--accent-color);
     text-decoration: none;
 }
-.text-adress-0:hover{
-    color: var(--accent-color);
-    text-decoration: none;
-}
-.text-adress-0{
+.header-link2{
     color: var(--main-text-color);
     text-decoration: none;
 }
-.tel-1 {
-    color:  var(--main-text-color);
-    text-decoration: none;
-}
-.tel-1:hover{
-    color:  var(--accent-color);
-    text-decoration: none;
-}
-.studio {
+.header-link {
     color:var(--black-titel-color);
     text-decoration: none;
 }
-.studio:hover{
+.header-link:hover{
     color:var(--accent-color);
     text-decoration: none;
 }
-.portfolio {
-    color: var(--black-titel-color);
-    text-decoration: none;
-}
-.portfolio:hover{
-    color: var(--accent-color);
-    text-decoration: none;
-}
-.contacts {
-    color: var(--black-titel-color);
-    text-decoration: none;
-}
-.contacts:hover{
-    color: var(--accent-color);
-    text-decoration: none;
-}
-.section-team {
+.team {
     background-color: var(--button-bcg-color);
 }
-.button1:hover{
+.sphere-it-button:hover{
     background-color: var(--accent-color);
     color: var( --white-color);
 }
-.button1 {
+.sphere-it-button {
     background-color: var(--button-bcg-color);
     color: var(--black-titel-color);
 }
-.button2 {
-    background-color: var(--button-bcg-color);
-    color: var(--black-titel-color);
-}
-.button2:hover{
-    background-color: var(--accent-color);
-    color: var(--white-color);
+p {
+    color: var(--main-text-color);
 }
 
 
                 /* Шрифти  */
 
-.logo1{
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+
+.header-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    line-height: 1.19;
+    font-size: 26px;
 }                 
-h1{
+.order-service-name{
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     text-align: center;
+    line-height: 1.36;
+    font-size: 44px;
 }
-.section-team h2{
+.team-name{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
+    line-height: 1.17;
+    font-size: 36px;
 }
-.section-what-we-were-doing h2{
+.What-do-we-do-name{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
+    line-height: 1.17;
+    font-size: 36px;
 }
-.section-text-info h3{
+.info-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    line-height: 1.14;
+    font-size: 14px;
 }
-.section-order-the-service button{
+.order-service-button{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    line-height: 1.88;
+    font-size: 16px;
 }
-.section-team h3{
+.team-title{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    line-height: 1.19;
+    font-size: 16px;
 }
-p {
+p{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
-nav {
+.header-nav{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    line-height: 1.14;
+    font-size: 14px;
 }
-.address-and-tel-number2 address{
+.footer-address{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    line-height: 1.7;
+    font-size: 14px;
 }
-.section-buttons-img h2{
+.sphere-it-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    line-height: 2;
+    font-size: 18px;
 }
-.ul-buttons{
+.sphere-it-button{
     font-family: "Roboto", sans-serif;
     font-weight: 500; 
+    line-height: 1.63;
+    font-size: 16px; ;
 }
-.logo2{
+.footer-logo{
     font-family:"Raleway", sans-serif;
     font-weight: 700;
+    line-height: 1.19;
+    font-size: 26px;
+}
+.info-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 14px;
+}
+.team-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.19;
+    font-size: 16px;
+}
+.sphere-it-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.88;
+    font-size: 16px;
 }
