@@ -11,14 +11,14 @@
 }
 
             /* Змінні CSS */    
-.order-service {
+.hero {
    background-color: var( --grey-light-bcg-color);
 }
-.order-service-button:hover{
+.hero-button:hover{
     background-color: var(--accent-color);
     color:var(--white-color);
 }
-.order-service-button {
+.hero-button {
     background-color: var(--button-bcg-color);
     color:var(--black-titel-color);
 }
@@ -35,7 +35,7 @@ h2 {
 h3 {
     color: var(--black-titel-color);
 }
-.info-name{
+.advantages-title{
     color: var(--white-color);
 }
 
@@ -49,49 +49,49 @@ h3 {
     text-decoration: none;
     color: var(--white-color);
 }
-.footer-link {
+.footer-URL {
     color: var(--white-color);
     text-decoration: none;
 }
-.footer-link:hover{
+.footer-URL:hover{
     color: var(--accent-color);
     text-decoration: none;
 }
 footer {
     background-color: var( --grey-light-bcg-color);
 }
-.footer-link2{
+.footer-link{
     color: var(--adress-footer-color);
     text-decoration: none;
 }
-.footer-link2:hover{
+.footer-link:hover{
     color: var(--accent-color);
-    text-decoration: none;
-}
-.header-link2:hover{
-    color: var(--accent-color);
-    text-decoration: none;
-}
-.header-link2{
-    color: var(--main-text-color);
-    text-decoration: none;
-}
-.header-link {
-    color:var(--black-titel-color);
     text-decoration: none;
 }
 .header-link:hover{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.header-link{
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.header-page {
+    color:var(--black-titel-color);
+    text-decoration: none;
+}
+.header-page:hover{
     color:var(--accent-color);
     text-decoration: none;
 }
 .team {
     background-color: var(--button-bcg-color);
 }
-.sphere-it-button:hover{
+.portfolio-element:hover{
     background-color: var(--accent-color);
     color: var( --white-color);
 }
-.sphere-it-button {
+.portfolio-element {
     background-color: var(--button-bcg-color);
     color: var(--black-titel-color);
 }
@@ -115,40 +115,40 @@ body{
     line-height: 1.19;
     font-size: 26px;
 }                 
-.order-service-name{
+.hero-title{
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     text-align: center;
     line-height: 1.36;
     font-size: 44px;
 }
-.team-name{
+.team-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
     line-height: 1.17;
     font-size: 36px;
 }
-.What-do-we-do-name{
+.work-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
     line-height: 1.17;
     font-size: 36px;
 }
-.info-title{
+.advantages-subtitle{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     line-height: 1.14;
     font-size: 14px;
 }
-.order-service-button{
+.hero-button{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     line-height: 1.88;
     font-size: 16px;
 }
-.team-title{
+.team-subtitle{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.19;
@@ -170,13 +170,13 @@ p{
     line-height: 1.7;
     font-size: 14px;
 }
-.sphere-it-title{
+.portfolio-subtitle{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     line-height: 2;
     font-size: 18px;
 }
-.sphere-it-button{
+.portfolio-element{
     font-family: "Roboto", sans-serif;
     font-weight: 500; 
     line-height: 1.63;
@@ -200,7 +200,7 @@ p{
     line-height: 1.19;
     font-size: 16px;
 }
-.sphere-it-text{
+.portfolio-text{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.88;
