@@ -118,19 +118,19 @@ body{
 .hero-title{
     font-weight: 900;
     text-align: center;
-    line-height: 1.36;
+    line-height: 1.4;
     font-size: 44px;
 }
 .team-title{
     font-weight: 700;
     text-align: center;
-    line-height: 1.17;
+    line-height: 1.2;
     font-size: 36px;
 }
 .work-title{
     font-weight: 700;
     text-align: center;
-    line-height: 1.17;
+    line-height: 1.2;
     font-size: 36px;
 }
 .advantages-subtitle{
@@ -140,7 +140,7 @@ body{
 }
 .hero-button{
     font-weight: 700;
-    line-height: 1.88;
+    line-height: 1.8;
     font-size: 16px;
 }
 .team-subtitle{
@@ -168,7 +168,7 @@ p{
 }
 .portfolio-element{
     font-weight: 500; 
-    line-height: 1.63;
+    line-height: 1.6;
     font-size: 16px; ;
 }
 .footer-logo{
@@ -189,6 +189,6 @@ p{
 }
 .portfolio-text{
     font-weight: 400;
-    line-height: 1.88;
+    line-height: 1.8;
     font-size: 16px;
 }
