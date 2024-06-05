@@ -112,72 +112,61 @@ body{
 .header-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    line-height: 1.19;
+    line-height: 1.2;
     font-size: 26px;
 }                 
 .hero-title{
-    font-family: "Roboto", sans-serif;
     font-weight: 900;
     text-align: center;
     line-height: 1.36;
     font-size: 44px;
 }
 .team-title{
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
     line-height: 1.17;
     font-size: 36px;
 }
 .work-title{
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
     line-height: 1.17;
     font-size: 36px;
 }
 .advantages-subtitle{
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     line-height: 1.14;
     font-size: 14px;
 }
 .hero-button{
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     line-height: 1.88;
     font-size: 16px;
 }
 .team-subtitle{
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    line-height: 1.19;
+    line-height: 1.2;
     font-size: 16px;
 }
 p{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 .header-nav{
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.14;
     font-size: 14px;
 }
 .footer-address{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.7;
     font-size: 14px;
 }
 .portfolio-subtitle{
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     line-height: 2;
     font-size: 18px;
 }
 .portfolio-element{
-    font-family: "Roboto", sans-serif;
     font-weight: 500; 
     line-height: 1.63;
     font-size: 16px; ;
@@ -185,23 +174,20 @@ p{
 .footer-logo{
     font-family:"Raleway", sans-serif;
     font-weight: 700;
-    line-height: 1.19;
+    line-height: 1.2;
     font-size: 26px;
 }
 .info-text{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.7;
     font-size: 14px;
 }
 .team-text{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    line-height: 1.19;
+    line-height: 1.2;
     font-size: 16px;
 }
 .portfolio-text{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.88;
     font-size: 16px;
