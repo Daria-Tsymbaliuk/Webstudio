@@ -1,4 +1,10 @@
-            /* Змінні CSS */
+*, ::after, ::before {
+    box-sizing: border-box;
+} 
+ 
+ 
+ 
+             /* Змінні CSS */
 
 :root {
     --main-text-color: #757575;
@@ -9,20 +15,77 @@
     --button-bcg-color: #f5f4fa ;
     --adress-footer-color:#ffffffb3;
 }
+     
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
-            /* Змінні CSS */    
+
 .hero {
    background-color: var( --grey-light-bcg-color);
+   text-align: center;
+   max-width: 1600px;
+   margin: 0 auto;
+   padding: 118px 0;
+
 }
+
 .hero-button:hover{
     background-color: var(--accent-color);
     color:var(--white-color);
 }
 .hero-button {
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
     background-color: var(--button-bcg-color);
     color:var(--black-titel-color);
 }
-
+.team-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.work-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.advantages-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.header-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.header-contacts{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header-item{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 50px;
+}
+.header-list li:first-child{
+    margin-left: 93px;
+}
           /* Заголовки */
 
           
@@ -39,11 +102,12 @@ h3 {
     color: var(--white-color);
 }
 
-          /* Заголовки */
-
 .header-logo{
     text-decoration: none; 
     color: var(--black-titel-color);
+}
+.span-logo{
+    color: var(--accent-color);
 }
 .footer-logo{
     text-decoration: none;
@@ -98,7 +162,6 @@ footer {
 p {
     color: var(--main-text-color);
 }
-
 
                 /* Шрифти  */
 

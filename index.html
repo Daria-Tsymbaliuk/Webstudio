@@ -8,33 +8,39 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
    <header class="header">
-    <a href="#" class="header-logo">WebStudio</a>
-    <!-- навігація -->
-    <nav class="header-nav">
-        <ul class="header-list"> 
-            <li class="header-item"><a href="#" class="header-page">Студія</a></li>
-            <li  class="header-item"><a href="#" class="header-page">Портфоліо</a></li>
-            <li  class="header-item"><a href="#" class="header-page">Контакти</a></li>
-        </ul>
-          <!-- список про посилання -->
-          <ul class="header-contacts"> 
-            <li class="header-item"><a href="mailto:info@devstudio.com"  class="header-link">info@devstudio.com</a></li>
-            <li class="header-item"><a href="tel:+380961111111" target="_blank"   class="header-link">+380961111111</a></li>
-         </ul>
-    </nav>
+    <div class="container header-container">
+        <a href="#" class="header-logo"><span class="span-logo">Web</span>Studio</a>
+        <!-- навігація -->
+        <nav class="header-nav">  
+            <ul class="header-list"> 
+                <li class="header-item"><a href="./index.html" class="header-page">Студія</a></li>
+                <li  class="header-item"><a href="./Portfolio.html" class="header-page">Портфоліо</a></li>
+                <li  class="header-item"><a href="#" class="header-page">Контакти</a></li>
+            </ul>
+              <!-- список про посилання -->
+              <ul class="header-contacts"> 
+                <li class="header-item"><a href="mailto:info@devstudio.com"  class="header-link">info@devstudio.com</a></li>
+                <li class="header-item"><a href="tel:+380961111111" target="_blank"   class="header-link">+380961111111</a></li>
+             </ul>
+        </nav>
+    </div>
    </header>
     <main>
     <!-- section про замолення послуги -->
     <section class="hero">
-        <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <div class="container">
+            <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
     <button type="button" class="hero-button">Замовити послугу</button>
+        </div>
     </section>
     <!-- section про переваги  цієї компанії -->
     <section class="advantages">
+        <div class="container">
         <h2 class="advantages-title">Наші переваги </h2>
         <!-- список про переваги   -->
       <ul class="advantages-list">
@@ -55,9 +61,11 @@
         <p class="advantages-text">Значимість цих проблем настільки  очевидна, що реалізація планових завдань.</p>
        </li>
        </ul> 
+    </div>
     </section>
     <!-- section про те чим ця компанія займається-->
     <section class="work">
+    <div class="container">
         <h2  class="work-title">Чим ми займаємося</h2>
         <!-- список про картинки програмування -->
         <ul class="work-list">
@@ -65,9 +73,11 @@
            <li class="work-item"><img src="./Pictures/1.jpg" alt="Фото, де людина тримає телефон і дивиться якийсь сайт" width="150" class="work-img"/></li>
            <li class="work-item"><img src="./Pictures/2.jpg" alt="Зображення, де є щось, пов'язане з дизайном" width="150" class="work-img"/></li>
         </ul>
+    </div>
     </section>
     <!-- section про співроботників -->
     <section class="team">
+    <div class="container">
         <h2 class="team-title">Наша команда</h2>
         <!-- список про комаду -->
         <ul class="team-list">
@@ -92,10 +102,12 @@
                 <p class="team-text">UI Designer</p>
             </li>
         </ul>
+    </div>
     </section>
     </main>
     <footer class="footer">
-        <a href="#" class="footer-logo">WebStudio</a>
+    <div class="container">
+        <a href="#" class="footer-logo"><span class="span-logo">Web</span>Studio</a>
         <!-- список про посиланя номер2 -->
         <address class="footer-adress">
         <ul class="footer-list"> 
@@ -104,6 +116,7 @@
             <li><a href="info@devstudio.com" target="_blank" class="footer-link" >info@devstudio.com</a></li>
          </ul>
         </address>
+    </div>
     </footer>
 </body>
 </html>
