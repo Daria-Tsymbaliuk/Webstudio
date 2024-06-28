@@ -11,6 +11,16 @@
     --adress-footer-color:#ffffffb3;
 }
 
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+                        /* header */
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
@@ -20,14 +30,17 @@
 }
 .header-logo{
     margin-right: 93px;
-}
-.header-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 26px;
     color: var(--black-titel-color);
-}
+}                 
 .header-nav{
-    display: flex;
-    justify-content: space-between;
     padding: 10px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 14px;
 }
 .header-list{
     display: flex;
@@ -54,12 +67,7 @@
     color:var(--accent-color);
     text-decoration: none;
 }
-.container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
+                             /* hero */
 .hero {
     background-color: var( --grey-light-bcg-color);
     text-align: center;
@@ -69,7 +77,11 @@
  
  }
  .hero-title{
-     margin-bottom: 30px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 44px;
  }
  .hero-button:hover{
      background-color: var(--accent-color);
@@ -82,64 +94,94 @@
      border-radius: 5px;
      background-color: var(--button-bcg-color);
      color:var(--black-titel-color);
+     font-weight: 700;
+     line-height: 1.8;
+     font-size: 16px;
  }
- .advantages{
-    width: 1170px;
-    flex-shrink: 0;
-}
+                            /* advantages  */
 .advantages{
-    padding: 94px 215px 94px 215px;
+    padding-top: 94px ;
+    padding-bottom: 94px;
+}
+
+.advantages-title{
+    color: var(--white-color);
 }
 .advantages-list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.advantages-title{
-    color: var(--white-color);
+.advantages-subtitle{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 14px;
 }
+.info-text{
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 14px;
+}
+                         /* work */
+
+ .work{
+    padding-bottom: 94px;
+}    
+.work-title{
+    margin-bottom: 50px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 36px;
+}                     
 .work-list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.work{
-    padding: 0px 215px 94px 215px;
-}
-.work-title{
-    margin-bottom: 50px;
-}
 .work-img{
     width: 370px;
     height: 294px;
 }
+                       /* team */
+
+.team {
+    background-color: var(--button-bcg-color);
+    width: 1600px;
+    height: 648px;
+    padding-top:94px;
+}                       
 .team-list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.team{
-    width: 1600px;
-    height: 648px;
-}
 .team-title{
-    padding-top:94px ;
     margin-bottom: 50px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 36px;
 }
 .team-item{
     text-align: center;
     background-color: var(--white-color);
 }
-.team-text{
-    margin-bottom: 30px;
-}
 .team-subtitle{
     margin: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 16px;
 }
-.team {
-    background-color: var(--button-bcg-color);
+.team-text{
+    margin-bottom: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 16px;
 }
-          /* Заголовки */
+
+
+          /* Заголовки  та абзац*/
 
           
 h1 {
@@ -151,10 +193,16 @@ h2 {
 h3 {
     color: var(--black-titel-color);
 }
+
+p {
+    color: var(--main-text-color);
+     font-weight: 400;
+    
+}
+                          /* footer */
 .footer{
-    /* width: 1600px;
-    height: 252px; */
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var( --grey-light-bcg-color);
 } 
 .span-logo{
@@ -162,11 +210,18 @@ h3 {
 }
 .footer-logo{
     color: var(--white-color);
-}
-.footer-logo{
+    font-family:"Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 26px;
     padding-left: 215px;
+    
 }
-
+.footer-address{
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 14px;
+}
 .footer-list{
     padding-top: 20px;
     padding-left: 215px;
@@ -188,6 +243,7 @@ h3 {
     color: var(--accent-color);
     text-decoration: none;
 }
+                        /* portfolio */
 .portfolio-element:hover{
     background-color: var(--accent-color);
     color: var( --white-color);
@@ -195,100 +251,19 @@ h3 {
 .portfolio-element {
     background-color: var(--button-bcg-color);
     color: var(--black-titel-color);
-}
-p {
-    color: var(--main-text-color);
-}
-
-                /* Шрифти  */
-
-body{
-    font-family: "Roboto", sans-serif;
-
-}
-
-
-
-.header-logo{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    line-height: 1.2;
-    font-size: 26px;
-}                 
-.hero-title{
-    font-weight: 900;
-    text-align: center;
-    line-height: 1.4;
-    font-size: 44px;
-}
-.team-title{
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.2;
-    font-size: 36px;
-}
-.work-title{
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.2;
-    font-size: 36px;
-}
-.advantages-subtitle{
-    font-weight: 700;
-    line-height: 1.2;
-    font-size: 14px;
-}
-.hero-button{
-    font-weight: 700;
-    line-height: 1.8;
-    font-size: 16px;
-}
-.team-subtitle{
-    font-weight: 500;
-    line-height: 1.2;
-    font-size: 16px;
-}
-p{
-    font-weight: 400;
-}
-.header-nav{
-    font-weight: 500;
-    line-height: 1.2;
-    font-size: 14px;
-}
-.footer-address{
-    font-weight: 400;
-    line-height: 1.7;
-    font-size: 14px;
-}
-.portfolio-subtitle{
-    font-weight: 700;
-    line-height: 2;
-    font-size: 18px;
-}
-.portfolio-element{
     font-weight: 500; 
     line-height: 1.6;
     font-size: 16px; ;
 }
-.footer-logo{
-    font-family:"Raleway", sans-serif;
+
+.portfolio-subtitle{
     font-weight: 700;
-    line-height: 1.2;
-    font-size: 26px;
-}
-.info-text{
-    font-weight: 400;
-    line-height: 1.7;
-    font-size: 14px;
-}
-.team-text{
-    font-weight: 400;
-    line-height: 1.2;
-    font-size: 16px;
+    line-height: 2;
+    font-size: 18px;
 }
 .portfolio-text{
     font-weight: 400;
     line-height: 1.8;
     font-size: 16px;
 }
+
