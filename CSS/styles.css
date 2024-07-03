@@ -64,10 +64,6 @@ body{
     text-decoration: none;
 }
 
-.header-tel:hover{
-    color: var(--accent-color);
-    text-decoration: none;
-}
 .header-tel{
     color: var(--main-text-color);
     text-decoration: none;
