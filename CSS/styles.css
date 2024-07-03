@@ -24,12 +24,12 @@ body{
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    height: 80px;
 }
 .header-container{
     display: flex;
 }
 .header-logo{
-    margin-right: 93px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 1.2;
@@ -45,12 +45,16 @@ body{
 .header-list{
     display: flex;
     gap: 50px;
+    margin-left: 93px;
 }
 .header-contacts{
     display: flex;
     gap: 50px;
     margin-left: auto;
+    margin-top: 10px;
+
 }
+
 .header-link:hover{
     color: var(--accent-color);
     text-decoration: none;
@@ -58,6 +62,20 @@ body{
 .header-link{
     color: var(--main-text-color);
     text-decoration: none;
+}
+
+.header-tel:hover{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.header-tel{
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 .header-page {
     color:var(--black-titel-color);
@@ -148,8 +166,8 @@ body{
 .team {
     background-color: var(--button-bcg-color);
     width: 1600px;
-    height: 648px;
     padding-top:94px;
+    padding-bottom: 94px;
 }                       
 .team-list {
     display: flex;
@@ -166,9 +184,11 @@ body{
 .team-item{
     text-align: center;
     background-color: var(--white-color);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-subtitle{
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     line-height: 1.2;
     font-size: 16px;
@@ -214,17 +234,13 @@ p {
     font-weight: 700;
     line-height: 1.2;
     font-size: 26px;
-    padding-left: 215px;
-    
+    display: block;
+    margin-bottom: 20px;
 }
 .footer-address{
     font-weight: 400;
     line-height: 1.7;
     font-size: 14px;
-}
-.footer-list{
-    padding-top: 20px;
-    padding-left: 215px;
 }
 
 .footer-URL {
