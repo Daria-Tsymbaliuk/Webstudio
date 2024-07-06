@@ -11,26 +11,31 @@
 <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
-<body>
+<body class="body-portfolio">
     <header class="header">
-        <a href="#" class="header-logo"><span class="span-logo">Web</span>Studio</a>
-        <!-- навігація-->
-        <nav class="header-nav">
-            <ul class="header-list"> 
-                <li class="header-item"><a href="./index.html" class="header-page">Студія</a></li>
-                <li  class="header-item"><a href="./Portfolio.html" class="header-page">Портфоліо</a></li>
-                <li  class="header-item"><a href="#" class="header-page">Контакти</a></li>
-            </ul>
-              <!-- список про посилання -->
-        </nav>
-        <ul class="header-contacts"> 
-            <li class="header-item"><a href="mailto:info@devstudio.com"  class="header-link">info@devstudio.com</a></li>
-            <li class="header-item"><a href="tel:+380961111111" target="_blank"   class="header-link">+380961111111</a></li>
-         </ul>
+        <div class="container header-container">
+            <a href="#" class="header-logo"><span class="span-logo">Web</span>Studio</a>
+            <!-- навігація -->
+            <nav class="header-nav">  
+                <ul class="header-list"> 
+                    <li class="header-item"><a href="./index.html" class="header-page">Студія</a></li>
+                    <li  class="header-item"><a href="./Portfolio.html" class="header-page">Портфоліо</a></li>
+                    <li  class="header-item"><a href="#" class="header-page">Контакти</a></li>
+                </ul>
+                  <!-- список про посилання -->
+            </nav>
+            <ul class="header-contacts"> 
+                <li class="header-item"><a href="mailto:info@devstudio.com"  class="header-link">info@devstudio.com</a></li>
+                <li class="header-item"><a href="tel:+380961111111" target="_blank"   class="header-link header-tel">+38 096 111 11 11</a></li>
+             </ul>
+        </div>
+        <hr>
        </header>
+       
     <main>
     <!-- section 1 -->
       <section class="portfolio">
+        <div class="container">
           <h1 class="portfolio-title">Сфери IT</h1>
           <!-- список 2 -->
           <ul  class="portfolio-btns">
@@ -88,18 +93,21 @@
                 <p class="portfolio-text">Додаток</p>
             </li>
          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-        <a href="#" class="footer-logo"><span class="span-logo">Web</span>Studio</a>
-        <!-- список про посиланя номер2 -->
-        <address class="footer-adress">
-        <ul class="footer-list"> 
-            <li class="footer-item"><a href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m10!1m2!2m1!1z0LMuINCa0LjQtdCyLCDQv9GALdGCINCb0LXRgdC4INCj0LrRgNCw0LjQvdC60LgsIDI2!3m6!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!15sCjPQsy4g0JrQuNC10LIsINC_0YAt0YIg0JvQtdGB0Lgg0KPQutGA0LDQuNC90LrQuCwgMjaSARFjb21wb3VuZF9idWlsZGluZ-ABAA!16s%2Fg%2F1tctq5jv?entry=ttu" target="_blank" class="footer-URL">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li><a href="tel:+380961111111" target="_blank" class="footer-link">+380961111111</a></li>  
-            <li><a href="info@devstudio.com" target="_blank" class="footer-link" >info@devstudio.com</a></li>
-         </ul>
-        </address>
-    </footer>
+        <div class="container">
+            <a href="#" class="footer-logo"><span class="span-logo">Web</span>Studio</a>
+            <!-- список про посиланя номер2 -->
+            <address class="footer-adress">
+            <ul class="footer-list"> 
+                <li class="footer-item"><a href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m10!1m2!2m1!1z0LMuINCa0LjQtdCyLCDQv9GALdGCINCb0LXRgdC4INCj0LrRgNCw0LjQvdC60LgsIDI2!3m6!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!15sCjPQsy4g0JrQuNC10LIsINC_0YAt0YIg0JvQtdGB0Lgg0KPQutGA0LDQuNC90LrQuCwgMjaSARFjb21wb3VuZF9idWlsZGluZ-ABAA!16s%2Fg%2F1tctq5jv?entry=ttu" target="_blank" class="footer-URL">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a href="tel:+380961111111" target="_blank" class="footer-link">+380961111111</a></li>  
+                <li><a href="info@devstudio.com" target="_blank" class="footer-link" >info@devstudio.com</a></li>
+             </ul>
+            </address>
+        </div>
+        </footer>
 </body>
 </html>
