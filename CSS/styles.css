@@ -13,6 +13,7 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    background-color: var(--white-color);
    
 }
 
@@ -83,6 +84,12 @@ body{
     color:var(--accent-color);
 }
                              /* hero */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}                         
 .hero {
     background-color: var( --grey-light-bcg-color);
     padding: 200px 0;
@@ -115,7 +122,6 @@ body{
      font-size: 16px;
      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
      letter-spacing: 0.96px; 
-     margin-left: 250px;
     
  }
                             /* advantages  */
@@ -241,6 +247,8 @@ p {
 }
 .footer-logo{
     color: var(--white-color);
+    margin-bottom: 20px;
+    display: inline-block;
 }
 .footer-address{
     font-weight: 400;
@@ -274,6 +282,7 @@ hr{
     display: flex;
     justify-content: center;
     gap:8px ;
+    margin-bottom: 50px ;
 }
 .portfolio-btns li:first-child .portfolio-element{
     padding: 6px 25px;
@@ -296,7 +305,13 @@ hr{
     border-radius: 4px;
 
 }
-
+.portfolio-item{
+    background-color: var(--white-color);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    padding-bottom: 20px;
+    width: 294px;
+    height: 370px;
+}
 .portfolio-subtitle{
     font-weight: 700;
     line-height: 2;
