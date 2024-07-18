@@ -269,6 +269,9 @@ p {
 
 hr{
     color: var(--main-text-color);
+}
+.portfolio{
+    margin-bottom: 94px;
 }                       
 .portfolio-btns{
     display: flex;
