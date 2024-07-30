@@ -128,6 +128,30 @@ body{
     justify-content: center;
     gap: 30px;
 }
+.advantages-item::before{
+    content: " ";
+    display: block;
+    background-color: #F5F4FA ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 120px;
+}
+.advantages-item:nth-child(1)::before{
+    background-image: url(../Pictures/antenna.png);
+}
+
+.advantages-item:nth-child(2)::before{
+    background-image: url(../Pictures/clock.svg);
+}
+
+.advantages-item:nth-child(3)::before{
+    background-image: url(../Pictures/diagram.svg);
+}
+
+.advantages-item:nth-child(4)::before{
+    background-image: url(../Pictures/astronaut.svg);
+}
 .advantages-subtitle{
     font-weight: 700;
     line-height: 1.2;
