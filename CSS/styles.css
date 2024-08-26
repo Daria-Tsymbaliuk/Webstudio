@@ -37,11 +37,13 @@ body{
     font-size: 26px;
     letter-spacing: 0.78px;
     color: var(--black-titel-color);
+}
+.header-nav {
+    margin-left: 93px
 }                 
 .header-list{
     display: flex;
     gap: 50px;
-    margin-left: 93px;
 }
 .header-contacts{
     display: flex;
@@ -56,11 +58,9 @@ body{
 }
 .header-link{
     color: var(--main-text-color);
-    color: var(--main-text-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.1;
     letter-spacing: 0.28px;
 }
 
@@ -68,9 +68,8 @@ body{
 .header-page {
     color:var(--black-titel-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.1;
     letter-spacing: 0.28px;
 }
 .header-page:hover{
@@ -86,7 +85,7 @@ body{
     background-color: var( --grey-light-bcg-color);
     padding: 200px 0;
  }
- .hero-title{
+.hero-title{
     margin-bottom: 30px;
     font-weight: 900;
     line-height: 1.4;
@@ -95,18 +94,15 @@ body{
     text-transform: uppercase; 
     max-width: 696px;
     text-align: center;
+    color: var(--white-color);
  }
- .hero-button:hover{
-     background-color: var(--accent-color);
-     color:var(--white-color);
- }
- .hero-button {
+.hero-button {
      padding: 10px 32px;
      border: none;
      cursor: pointer;
      border-radius: 4px;
-     background-color: var(--button-bcg-color);
-     color:var(--black-titel-color);
+     background-color: var(--accent-color);
+     color:var(--white-color);
      font-weight: 700;
      line-height: 1.8;
      font-size: 16px;
@@ -136,6 +132,8 @@ body{
     background-position: center;
     width: 270px;
     height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
 .advantages-item:nth-child(1)::before{
     background-image: url(../Pictures/antenna.png);
@@ -163,12 +161,11 @@ body{
     line-height: 1.7;
     font-size: 14px;
     letter-spacing: 0.42px;
-    font-style: normal;
 
 }
                          /* work */
 
- .work{
+.work{
     padding-bottom: 94px;
 }    
 .work-title{
@@ -232,19 +229,7 @@ body{
 }
 
 
-          /* Заголовки  та абзац*/
-
-          
-h1 {
-    color: var( --white-color);
-}
-h2 {
-    color: var(--black-titel-color);
-}
-h3 {
-    color: var(--black-titel-color);
-}
-
+          /* абзац */
 p {
     color: var(--main-text-color);
      font-weight: 400;
@@ -269,7 +254,7 @@ p {
     line-height: 1.7;
     font-size: 14px;
 }
-.footer-list li:last-child{
+.footer-list li:not(last-child){
     margin-bottom: 9px;
 }
 .footer-URL {
@@ -296,11 +281,14 @@ hr{
 }
 .portfolio{
     margin-bottom: 94px;
-}                       
+}   
+.portfolio-title {
+    color: var(--white-color);
+}                    
 .portfolio-btns{
     display: flex;
     justify-content: center;
-    gap:8px ;
+    gap: 8px ;
     margin-bottom: 50px ;
 }
 .portfolio-element {
@@ -312,40 +300,42 @@ hr{
     background-color: var(--button-bcg-color);
     color: var(--black-titel-color);
     
-    }
+}
     
-    .portfolio-element:hover {
+.portfolio-element:hover {
     background-color: var(--accent-color);
     color: var(--white-color);
     
-    }
+}
     
-    .portfolio-list {
+.portfolio-list {
      display: flex; 
      flex-wrap: wrap;  
      row-gap: 30px;
      column-gap: 30px;
-     padding: 0; 
     
-    }
+}
     
-    .portfolio-item {
+.portfolio-item {
     flex-basis: calc((100% - 60px) / 3);
     background-color: var(--white-color);
     max-width: 370px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12); }
-
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12); 
+}
+.portfolio-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 24px;
+}
 .portfolio-subtitle{
     font-weight: 700;
     line-height: 2;
     font-size: 18px;
-    margin: 20px 24px 4px 24px;
 }
 .portfolio-text{
     font-weight: 400;
     line-height: 1.8;
     font-size: 16px;
-    margin: 20px 24px;
 }
 
