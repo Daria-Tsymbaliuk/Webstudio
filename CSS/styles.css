@@ -374,10 +374,9 @@ p {
 .svg-wrapper:hover{
     background-color: #2196f3;
 }
-.svg-wrapper:hover .link-icon-svg{
+.link-icon-svg{
     filter: invert(100%) brightness(10000%);
 }
-
                         /* portfolio */
 
 hr{
