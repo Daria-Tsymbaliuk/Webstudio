@@ -222,6 +222,9 @@ body{
     height: 428px;
     padding-bottom: 30px;
 }
+.team-item:hover{
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
 .team-subtitle{
     margin-top: 30px;
     margin-bottom: 10px;
@@ -425,6 +428,9 @@ hr{
     max-width: 370px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12); 
+}
+.portfolio-item:hover{
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 .portfolio-box {
     display: flex;
