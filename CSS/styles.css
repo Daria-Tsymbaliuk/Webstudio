@@ -145,19 +145,19 @@ body{
     margin-bottom: 30px;
 }
 .advantages-item:nth-child(1)::before{
-    background-image: url(../Pictures/antenna.svg);
+    background-image: url(../Pictures/svg/antenna.svg);
 }
 
 .advantages-item:nth-child(2)::before{
-    background-image: url(../Pictures/clock.svg);
+    background-image: url(../Pictures/svg/clock.svg);
 }
 
 .advantages-item:nth-child(3)::before{
-    background-image: url(../Pictures/diagram.svg);
+    background-image: url(../Pictures/svg/diagram.svg);
 }
 
 .advantages-item:nth-child(4)::before{
-    background-image: url(../Pictures/astronaut.svg);
+    background-image: url(../Pictures/svg/astronaut.svg);
 }
 .advantages-subtitle{
     font-weight: 700;
