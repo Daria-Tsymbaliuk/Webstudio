@@ -57,6 +57,7 @@ body{
 
 .header-link:hover{
     color: var(--accent-color);
+    fill: var(--accent-color);
 }
 .header-link{
     color: var(--main-text-color);
@@ -64,9 +65,11 @@ body{
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.28px;
+    fill: var(--main-text-color);
+    display: flex;
+    width: 160px;
+    gap: 10px;
 }
-
-
 .header-page {
     color:var(--black-titel-color);
     font-size: 14px;
@@ -245,7 +248,7 @@ body{
     gap: 16px;
     justify-content: center;
 }
-.icon-wrapper {
+.t-worker-link {
     /* display: inline-block; */
     padding: 12px;
     background-color: var(--white-color);
@@ -253,13 +256,13 @@ body{
     line-height: 0;
     display: flex;
     justify-content: center;
+    fill: var(--svg-color);
 }
-.icon-wrapper:hover{
+.t-worker-link:hover{
     background-color: #2196f3;
+    fill: var(--white-color);
 }
-.icon-wrapper:hover .t-worker-svg{
-    filter: invert(100%) brightness(10000%);
-}
+
 
      /* regular-clients */
 
@@ -288,11 +291,18 @@ body{
     justify-content: center;
     display: flex;
 }
-.regular-clients-item:hover{
+.regular-clients-link{
+    fill: var(--svg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+.regular-clients-item:hover {
     border: 2px solid var(--accent-color);
 }
-.regular-clients-item:hover object{
-    filter: brightness(0) saturate(100%) invert(37%) sepia(78%) saturate(1272%) hue-rotate(174deg) brightness(92%) contrast(97%);
+.regular-clients-item:hover .regular-clients-link{
+    fill: var(--accent-color);
 }
 
 
@@ -360,12 +370,12 @@ p {
     
 }
 
-.link-icon-list {
+.footer-link-list {
     display: flex;
     gap: 16px;
     justify-content: center;
 }
-.svg-wrapper {
+.footer-svg-link {
     /* display: inline-block; */
     padding: 12px;
     background-color: var(--svg-bcg-color);
@@ -373,14 +383,14 @@ p {
     line-height: 0;
     display: flex;
     justify-content: center;
+    fill: var(--white-color);
 }
-.svg-wrapper:hover{
+.footer-svg-link:hover{
     background-color: #2196f3;
 }
-.link-icon-svg{
-    filter: invert(100%) brightness(10000%);
-}
-                        /* portfolio */
+
+
+                /* portfolio */
 
 hr{
     color: var(--main-text-color);
