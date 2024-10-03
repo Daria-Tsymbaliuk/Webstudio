@@ -11,6 +11,7 @@
     --adress-footer-color:#ffffffb3;
     --svg-color:#AFB1B8;
     --svg-bcg-color: #ffffff1a;;
+    --modal-btn-send-hover-bcg-color: #188CE8;
 }
 
 body{
@@ -469,16 +470,13 @@ p {
     border-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
   }
 .btn-close-modal {
     position: absolute;
     top: 8px;
     right: 8px;
     border-radius: 50% ;
-    border: 1px solid rgba(0, 0, 0, 0.10);;
+    border: 1px solid rgba(0, 0, 0, 0.10);
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -490,14 +488,14 @@ p {
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-    line-height: 1px;
+    line-height: 1.2px;
     letter-spacing: 0.6px;
     margin-bottom: 12px;
 }
 
 
 .form-field {
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .form-label{
@@ -524,10 +522,9 @@ p {
     left: 12px; 
     transform: translateY(-50%); 
     fill: var(--black-titel-color); 
-    pointer-events: none; 
 }
 .form-input {
-    width: 448px;
+    width: 100%;
     height: 40px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
@@ -536,19 +533,24 @@ p {
 
 .comment-field {
     margin-bottom: 20px;
+
 }
 .comment {
-    width: 448px;
+    width: 100%;
     height: 120px;
-    color: #757575;
+    resize: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    line-height: 1.2px;
+}
+.comment::placeholder {
+    color: #75757580;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1px;
+    line-height: 1.2px;
     letter-spacing: 0.12px;
-    padding: 12px 16px;
-    resize: none;
-}
-
+} 
 .checkbox-field {
     display: flex;
     align-items: center; 
@@ -568,7 +570,7 @@ p {
   }
 .checkbox {
     width: 16px;
-    height: 15px;
+    height: 16px;
     appearance: none; 
     background-color: var(--white-color); 
     border: 2px solid var(--black-titel-color); 
@@ -616,6 +618,9 @@ p {
     line-height: 1.8;
     font-size: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.btn-modal-send:hover{
+    background-color: var(--modal-btn-send-hover-bcg-color);
 }
 
                 /* portfolio */
