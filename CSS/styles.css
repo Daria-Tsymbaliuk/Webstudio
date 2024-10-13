@@ -56,10 +56,6 @@ body{
 
 }
 
-.header-link:hover{
-    color: var(--accent-color);
-    fill: var(--accent-color);
-}
 .header-link{
     color: var(--main-text-color);
     font-size: 14px;
@@ -71,6 +67,12 @@ body{
     display: flex;
     width: 160px;
     gap: 10px;
+
+    transition: color, fill, 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link:hover{
+    color: var(--accent-color);
+    fill: var(--accent-color);
 }
 .header-page {
     position: relative;
@@ -79,6 +81,8 @@ body{
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.28px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-page:hover{
     color:var(--accent-color);
@@ -263,7 +267,9 @@ body{
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     width: 270px;
     height: 428px;
-    padding-bottom: 30px;
+    padding-bottom: 30px; 
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-item:hover{
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
@@ -294,8 +300,9 @@ body{
     background-color: var(--white-color);
     border-radius: 50%;
     display: flex;
-
     fill: var(--svg-color);
+
+    transition: background-color,  fill,  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .worker-link:hover{
     background-color: #2196f3;
@@ -333,6 +340,8 @@ body{
     border: 1px solid var(--svg-color);
     justify-content: center;
     display: flex;
+    
+    transition: border,  fill,  250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 
@@ -420,6 +429,8 @@ p {
     border-radius: 50%;
     display: flex;
     fill: var(--white-color);
+
+    transition: background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-socials-link:hover{
     background-color: var(--accent-color);
@@ -488,6 +499,7 @@ p {
     border-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+    
   }
 .btn-close-modal {
     position: absolute;
@@ -500,6 +512,8 @@ p {
     justify-content: center;
     background-color: var(--white-color);
     fill: var(--black-titel-color);
+    
+    transition: fill  250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
 .btn-close-modal:hover {
@@ -544,6 +558,8 @@ p {
     left: 12px; 
     transform: translateY(-50%); 
     fill: var(--black-titel-color); 
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input {
     width: 100%;
@@ -551,6 +567,8 @@ p {
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     padding: 12px 40px;
+    
+    transition: border  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment-field {
@@ -642,6 +660,8 @@ p {
     line-height: 1.8;
     font-size: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-modal-send:hover{
     background-color: var(--modal-btn-send-hover-bcg-color);
@@ -673,9 +693,11 @@ p {
     background-color: var(--button-bcg-color);
     color: var(--black-titel-color);
     
+    transition: background-color, color, box-shadow, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
     
-.portfolio-element:hover {
+.portfolio-element:hover,
+.portfolio-element:focus{
     background-color: var(--accent-color);
     color: var(--white-color);
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
